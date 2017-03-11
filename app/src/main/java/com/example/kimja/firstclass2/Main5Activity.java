@@ -37,6 +37,18 @@ public class Main5Activity extends AppCompatActivity {
                 String inPutText = editText.getText().toString();
                 String inPutText2 = editText2.getText().toString();
                 String inPutText3 = editText3.getText().toString();
+                if(inPutText.length()==0){
+                    editText.setText("0");
+                    inPutText = "0";
+                }
+                if(inPutText2.length()==0){
+                    editText2.setText("0");
+                    inPutText2 = "0";
+                }
+                if(inPutText3.length()==0){
+                    editText3.setText("0");
+                    inPutText3= "0";
+                }
                 final int result,number;
                 if (checkBox.isChecked()){
                     result = (Integer.parseInt(inPutText)*15000
