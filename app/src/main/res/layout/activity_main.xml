@@ -54,7 +54,7 @@
             android:id="@+id/b4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Button"
+            android:text="레스토랑 메뉴 주문"
             tools:layout_editor_absoluteX="121dp"
             tools:layout_editor_absoluteY="141dp" />
 
@@ -62,7 +62,7 @@
             android:id="@+id/b5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Button"
+            android:text="계산기"
             tools:layout_editor_absoluteX="121dp"
             tools:layout_editor_absoluteY="231dp" />
 
